@@ -6,11 +6,13 @@
 </head>
 
 <body>
-<h3>子页面</h3>
+<h3>子页面1</h3>
 <script>
    
 window.onload = function(){
     console.log('顶级窗口', window.top)
+    const loca = sessionStorage.getItem('aaa')
+    console.log(loca)
 }
 
 </script>
