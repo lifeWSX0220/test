@@ -12,6 +12,7 @@
 window.onload = function(){
     console.log('顶级窗口', window.top)
     const loca = sessionStorage.getItem('aaa')
+    window.top.currentUserDto = loca
     console.log(loca)
 }
 
